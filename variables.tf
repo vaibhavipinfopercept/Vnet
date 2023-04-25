@@ -43,7 +43,7 @@ variable "ddos_protection_plan" {
     enable = bool
     id     = string
   })
-  default = null
+  default = true
 }
 
 # If no values specified, this defaults to Azure DNS
